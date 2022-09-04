@@ -1,0 +1,57 @@
+[
+    {
+      "id": 0,
+      "customerName": "Sasanka Vepakomma",
+      "phoneNumber": "📚",
+      "address": "1215 E Lemon St",
+      "loanAmount": "250",
+      "interest": "6",
+      "loanTermYears": "4",
+      "loanType":"",
+      "description":"Nice guy"
+    },
+    {
+      "id": 1,
+      "customerName": "Rohan Dwivedi",
+      "phoneNumber": "📚",
+      "address": "1216 E Lemon St",
+      "loanAmount": "300",
+      "interest": "7",
+      "loanTermYears": "6",
+      "loanType":"",
+      "description":"Geeky guy"
+    },
+    {
+      "id": 2,
+      "customerName": "Varun Mukhundan",
+      "phoneNumber": "📚",
+      "address": "1217 E Lemon St",
+      "loanAmount": "800",
+      "interest": "9",
+      "loanTermYears": "8",
+      "loanType":"",
+      "description":"Sarcastic guy"
+    },
+    {
+      "id": 3,
+      "customerName": "Sairam Tabibu",
+      "phoneNumber": "📚",
+      "address": "1218 E Lemon St",
+      "loanAmount": "1200",
+      "interest": "8.5",
+      "loanTermYears": "6",
+      "loanType":"",
+      "description":"Funny guy"
+    },
+    {
+      "id": 4,
+      "customerName": "Mugdha Abhyankar",
+      "phoneNumber": "📚",
+      "address": "1219 E Lemon St",
+      "loanAmount": "200",
+      "interest": "6.5",
+      "loanTermYears": "4",
+      "loanType":"",
+      "description":"Mother India"
+  }
+]
