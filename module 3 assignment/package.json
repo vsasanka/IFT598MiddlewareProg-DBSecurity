@@ -1,0 +1,15 @@
+{
+  "name": "module-3-assignment---data-exchange-and-date-formats",
+  "version": "1.0.0",
+  "description": "Sasanka Vepakomma Module 3 assignment",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sasanka Vepakomma",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  }
+}
