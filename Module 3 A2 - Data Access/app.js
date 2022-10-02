@@ -28,6 +28,6 @@ const salesRouter = require('./routes/salesRouter');
 const userRouter = require('./routes/userRoutes');
 
 app.use('/api/v1/sales', salesRouter);
-app.use('/api/v1/users', userRouter);
+app.use('/api/v1/customers', userRouter);
 
 module.exports = app;
