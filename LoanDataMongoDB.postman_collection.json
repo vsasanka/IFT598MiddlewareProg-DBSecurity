@@ -1,0 +1,98 @@
+{
+	"info": {
+		"_postman_id": "f8d62710-58e1-49ba-84a0-dd18bd0c669d",
+		"name": "LoanDataMongoDB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10231732"
+	},
+	"item": [
+		{
+			"name": "Post new loan",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"customerName\": \"Kyle Jenner\",\n      \"phoneNumber\": \"📚\",\n      \"address\": \"1219 E Lemon St\",\n      \"loanAmount\": \"200\",\n      \"interest\": \"6.5\",\n      \"loanTermYears\": \"4\",\n      \"loanType\":\"\",\n      \"description\":\"Mother India\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get by ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Put by ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"customerName\": \"Sasanka Vepakomma\",\n      \"phoneNumber\": \"+1 4701231234\",\n      \"address\": \"1215 E Lemon St\",\n      \"loanAmount\": \"800\",\n      \"interest\": \"6\",\n      \"loanTermYears\": \"4\",\n      \"loanType\":\"\",\n      \"description\":\"Nice guy\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/loans/6354af98100f6ccd81824f0a",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"loans",
+						"6354af98100f6ccd81824f0a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all loans",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete by ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
