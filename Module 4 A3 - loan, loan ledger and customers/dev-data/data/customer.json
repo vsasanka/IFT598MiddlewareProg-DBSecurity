@@ -1,0 +1,11 @@
+[
+  {
+    "name":"Harry J. Potter",
+    "firstName":"Harry",
+    "middleName":"James",
+    "lastName":"Potter",
+    "dateOfBirth":"01-04-1997",
+    "address":"1215 E Lemon St",
+    "gender":"Male"
+  }
+]

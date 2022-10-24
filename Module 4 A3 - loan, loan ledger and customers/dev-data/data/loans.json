@@ -1,0 +1,10 @@
+[
+  {
+    "loanType":"Home",
+    "loanNumber":111100001,
+    "amount":1000,
+    "interestRate":10.11,
+    "loanTermYears":5,
+    "startDate":"10-10-2022"
+  }
+]
