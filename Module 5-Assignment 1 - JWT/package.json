@@ -1,0 +1,21 @@
+{
+  "name": "module-5-assignment-1",
+  "version": "1.0.0",
+  "description": "Project for authenticating a user's record through JWT",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sasanka Vepakomma",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0",
+    "vcryptjs": "^1.2.0"
+  }
+}
