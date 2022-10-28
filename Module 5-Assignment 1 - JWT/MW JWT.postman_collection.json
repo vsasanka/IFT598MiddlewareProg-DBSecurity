@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "7adcd8fc-768d-4b83-9af7-ab01b30778d9",
+		"name": "MW JWT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10231732"
+	},
+	"item": [
+		{
+			"name": "Post JWT tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST JWT sign_in",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Testing2020!",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://orlandov.service-now.com/api/sn_km_api/v1/knowledge/articles/most_viewed?kb=a7e8a78bff0221009b20ffffffffff17,baf3cd17db3ec0100f735a35dc961905&fields=short_description,workflow_state,number&language=en,fr",
+					"protocol": "http",
+					"host": [
+						"orlandov",
+						"service-now",
+						"com"
+					],
+					"path": [
+						"api",
+						"sn_km_api",
+						"v1",
+						"knowledge",
+						"articles",
+						"most_viewed"
+					],
+					"query": [
+						{
+							"key": "kb",
+							"value": "a7e8a78bff0221009b20ffffffffff17,baf3cd17db3ec0100f735a35dc961905"
+						},
+						{
+							"key": "fields",
+							"value": "short_description,workflow_state,number"
+						},
+						{
+							"key": "language",
+							"value": "en,fr"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST JWT Register",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
