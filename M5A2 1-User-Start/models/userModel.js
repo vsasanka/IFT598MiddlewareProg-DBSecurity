@@ -47,7 +47,7 @@ const userSchema = new mongoose.Schema({
 });
 
 // add encrypting the password middleware
-userSchema.pre('save', async function(next){
+/*userSchema.pre('save', async function(next){
   if(!this.isModified('password')){
     return next;
   }
@@ -56,7 +56,7 @@ userSchema.pre('save', async function(next){
   this.password = await bcrypt.hash(this.password, 12); // how intensive the CPU will be
   this.passwordConfirm = undefined; // we dop not want to store in database
   next();
-});
+});*/
 
 const User = mongoose.model('textpassword', userSchema);
 
