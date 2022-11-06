@@ -59,6 +59,10 @@ userSchema.pre('save', async function(next){
   next();
 });
 
+userSchema.methods.correctPassword = function(password) {
+  return bcrypt.compareSync(password, this.password);
+};
+
 const User = mongoose.model('jwtToken', userSchema);
 
 module.exports = User;
