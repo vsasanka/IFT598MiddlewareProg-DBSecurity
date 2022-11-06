@@ -1,0 +1,26 @@
+{
+	"info": {
+		"_postman_id": "a432c788-ab84-4765-95cc-fda8088eabeb",
+		"name": "jwtToken",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10231732"
+	},
+	"item": [
+		{
+			"name": "POST Users",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET Users",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
