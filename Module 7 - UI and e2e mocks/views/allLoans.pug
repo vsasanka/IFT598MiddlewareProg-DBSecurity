@@ -1,0 +1,25 @@
+extends baseTemplate
+
+block content 
+  h1 This is dynamic Loan Overview
+
+  div
+    table.table-header
+      thead
+        tr
+          th(scope='col') Loan Number
+          th(scope='col') Loan Type
+          th(scope='col') Amount
+          th(scope='col') Interest Rate
+          th(scope='col') Loan Term
+      tbody
+        each loan in loans 
+          tr.table-secondary
+            td=loan.loanNumber
+            td=loan.loanType
+            td=loan.amount
+            td=loan.interestRate
+            td=loan.loanTerm
+
+         
+ 
