@@ -1,0 +1,16 @@
+extends loginbase
+
+block content 
+  h1 This is list of all users 
+
+  div
+    table.table-header
+      thead
+        tr
+          th(scope='col') Name 
+          th(scope='col') Email
+      tbody
+        each user in users  
+          tr.table-secondary
+            td=user.name
+            td=user.email
